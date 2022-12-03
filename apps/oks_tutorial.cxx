@@ -20,13 +20,13 @@
 
 #include <boost/date_time/gregorian/gregorian.hpp>
 
-#include <oks/kernel.h>
-#include <oks/object.h>
-#include <oks/class.h>
-#include <oks/attribute.h>
-#include <oks/relationship.h>
-#include <oks/query.h>
-#include <oks/exceptions.h>
+#include "oks/kernel.hpp"
+#include "oks/object.hpp"
+#include "oks/class.hpp"
+#include "oks/attribute.hpp"
+#include "oks/relationship.hpp"
+#include "oks/query.hpp"
+#include "oks/exceptions.hpp"
 
 
   //

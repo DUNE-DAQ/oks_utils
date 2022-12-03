@@ -28,11 +28,11 @@
 
 #include <fstream>
 
-#include <oks/attribute.h>
-#include <oks/relationship.h>
-#include <oks/method.h>
-#include <oks/kernel.h>
-#include <oks/class.h>
+#include "oks/attribute.hpp"
+#include "oks/relationship.hpp"
+#include "oks/method.hpp"
+#include "oks/kernel.hpp"
+#include "oks/class.hpp"
 
 
 int    localDiffsCount;

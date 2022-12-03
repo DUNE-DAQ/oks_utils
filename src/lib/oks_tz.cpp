@@ -1,3 +1,9 @@
+
+#include "oks_utils/oks/tz.hpp"
+
+#include "ers/ers.hpp"
+#include "logging/Logging.hpp"
+
 #include <boost/date_time/posix_time/posix_time_types.hpp>
 #include <boost/date_time/posix_time/time_formatters.hpp>
 #include <boost/date_time/posix_time/time_parsers.hpp>
@@ -5,10 +11,6 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
-
-#include <ers/ers.h>
-
-#include <oks/tz.h>
 
 oks::tz::DB::DB()
 {
@@ -19,7 +21,7 @@ oks::tz::DB::DB()
       throw std::runtime_error ("cannot read value of BOOST_DATE_TIME_TZ_SPEC environment variable");
     }
 
-  ERS_DEBUG(1, "Boost time-zone specification file is \'" << tz_spec_file << '\'');
+  TLOG_DEBUG(1) <<  "Boost time-zone specification file is \'" << tz_spec_file << '\'' ;
 
   try
     {
@@ -81,7 +83,7 @@ oks::tz::str_2_posix_time(const std::string& in, boost::local_time::time_zone_pt
       try
         {
           boost::local_time::local_date_time lt(t.date(), t.time_of_day(), tz_ptr, boost::local_time::local_date_time::EXCEPTION_ON_ERROR);
-          ERS_DEBUG(1, "Build zone\'s time \'" << in << "\' => \'" << lt.to_string() << "\' using \'" << tz_ptr->to_posix_string() << '\'');
+          TLOG_DEBUG(1) <<  "Build zone\'s time \'" << in << "\' => \'" << lt.to_string() << "\' using \'" << tz_ptr->to_posix_string() << '\'' ;
           t = lt.utc_time();
         }
       catch(std::exception& e)

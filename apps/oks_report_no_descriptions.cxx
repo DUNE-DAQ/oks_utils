@@ -9,12 +9,12 @@
 
 #include <stdlib.h>
 
-#include <oks/attribute.h>
-#include <oks/relationship.h>
-#include <oks/class.h>
-#include <oks/kernel.h>
-#include <oks/file.h>
-#include <oks/exceptions.h>
+#include "oks/attribute.hpp"
+#include "oks/relationship.hpp"
+#include "oks/class.hpp"
+#include "oks/kernel.hpp"
+#include "oks/file.hpp"
+#include "oks/exceptions.hpp"
 
 
 static void

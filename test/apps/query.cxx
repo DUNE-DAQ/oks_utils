@@ -1,7 +1,7 @@
-#include <oks/kernel.h>
-#include <oks/class.h>
-#include <oks/object.h>
-#include <oks/query.h>
+#include "oks/kernel.hpp"
+#include "oks/class.hpp"
+#include "oks/object.hpp"
+#include "oks/query.hpp"
 
 int main()
 {

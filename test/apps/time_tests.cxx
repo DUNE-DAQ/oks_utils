@@ -5,12 +5,12 @@
 #include <chrono>
 #include <fstream>
 
-#include <oks/kernel.h>
-#include <oks/class.h>
-#include <oks/object.h>
-#include <oks/attribute.h>
-#include <oks/relationship.h>
-#include <oks/query.h>
+#include "oks/kernel.hpp"
+#include "oks/class.hpp"
+#include "oks/object.hpp"
+#include "oks/attribute.hpp"
+#include "oks/relationship.hpp"
+#include "oks/query.hpp"
 
 
 struct CallTimeInfo {

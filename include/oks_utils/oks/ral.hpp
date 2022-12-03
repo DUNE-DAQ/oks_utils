@@ -22,8 +22,8 @@ namespace coral {
   class AttributeList;
 }
 
-#include <oks/class.h>
-#include <oks/object.h>
+#include "oks/class.hpp"
+#include "oks/object.hpp"
 
 namespace oks {
 

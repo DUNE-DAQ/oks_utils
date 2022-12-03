@@ -8,8 +8,8 @@
 #include "RelationalAccess/ConnectionService.h"
 #include "RelationalAccess/ISessionProxy.h"
 
-#include <oks/kernel.h>
-#include <oks/ral.h>
+#include "oks/kernel.hpp"
+#include "oks/ral.hpp"
 
 static void
 usage()

@@ -1,11 +1,11 @@
 #include <iostream>
 #include <stdlib.h>
 
-#include <oks/kernel.h>
-#include <oks/object.h>
-#include <oks/class.h>
-#include <oks/index.h>
-#include <oks/attribute.h>
+#include "oks/kernel.hpp"
+#include "oks/object.hpp"
+#include "oks/class.hpp"
+#include "oks/index.hpp"
+#include "oks/attribute.hpp"
 
 const char *appName;
 const char *appTitle = "OKS indices tester.";

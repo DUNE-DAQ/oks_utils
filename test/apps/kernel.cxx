@@ -1,5 +1,5 @@
-#include <oks/kernel.h>
-#include <oks/class.h>
+#include "oks/kernel.hpp"
+#include "oks/class.hpp"
 
 int main(int argc, char **argv)
 {

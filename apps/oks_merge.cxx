@@ -8,11 +8,11 @@
  */
 
 
-#include <oks/kernel.h>
+#include "oks/kernel.hpp"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include <ers/ers.h>
+#include "ers/ers.hpp"
 
 ERS_DECLARE_ISSUE(
   oks_merge,

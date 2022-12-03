@@ -9,7 +9,7 @@
 
 #include <boost/program_options.hpp>
 
-#include <oks/kernel.h>
+#include "oks/kernel.hpp"
 
 int
 main(int argc, char **argv)

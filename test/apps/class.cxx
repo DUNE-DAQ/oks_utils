@@ -1,6 +1,6 @@
-#include <oks/class.h>
-#include <oks/attribute.h>
-#include <oks/relationship.h>
+#include "oks/class.hpp"
+#include "oks/attribute.hpp"
+#include "oks/relationship.hpp"
 
 int main()
 {
