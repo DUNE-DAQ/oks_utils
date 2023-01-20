@@ -51,7 +51,7 @@ setPersonValues(
 
   d.Set(familySituation);          // sets OKS data to 'familySituation'
   d.type = OksData::enum_type;     // sets OKS data type to enumeration
-  o->SetAttributeValue("Family Situation", &d);
+  o->SetAttributeValue("Family_Situation", &d);
 }
 
 
@@ -66,12 +66,12 @@ printPerson(
 {
   OksData * name(o->GetAttributeValue("Name"));                 // is used to store 'Name'
   OksData * birthday(o->GetAttributeValue("Birthday"));         // is used to store 'Birthday'
-  OksData * family(o->GetAttributeValue("Family Situation"));   // is used to store 'Family Situation'
+  OksData * family(o->GetAttributeValue("Family_Situation"));   // is used to store 'Family_Situation'
 
   std::cout << "Object " << o << " \n"
              " Name: " << *name << " \n"
              " Birthday: \'" << *birthday << "\" \n"
-             " Family Situation: " << *family << std::endl;
+             " Family_Situation: " << *family << std::endl;
 }
 
 
@@ -204,7 +204,7 @@ main(int argc, char **argv)
                  "  **********        ************ 0..N     **************\n\n";
 
 
-      // Creates class Person with three attributes "Name", "Birthday" and "Family Situation"
+      // Creates class Person with three attributes "Name", "Birthday" and "Family_Situation"
 
     OksClass * Person = new OksClass(
       "Person",
@@ -239,7 +239,7 @@ main(int argc, char **argv)
 
     Person->add(
       new OksAttribute(
-        "Family Situation",
+        "Family_Situation",
         OksAttribute::enum_type,
         false,
         "Single,Married,Widow(er)",
