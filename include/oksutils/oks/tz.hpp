@@ -14,7 +14,7 @@ namespace oks
 
     /**
      * The class provides access to Boost time-zone database.
-     * It relies on Boost time-zone database file installed by oks_utils package
+     * It relies on Boost time-zone database file installed by oksutils package
      * and pointed by BOOST_DATE_TIME_TZ_SPEC process environment variable.
      */
 
