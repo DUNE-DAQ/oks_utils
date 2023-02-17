@@ -4,7 +4,7 @@
 
 echo "CHECKING ALLOC and MEMORY-ALLOCATION-MUTEX MECHANISMS..."
 
-if ${1}/oks_utils_alloc_test
+if ${1}/oksutils_alloc_test
 then
   echo "alloc check passed";
 else
