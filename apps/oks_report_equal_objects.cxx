@@ -22,6 +22,8 @@
 #include "oks/attribute.hpp"
 #include "oks/relationship.hpp"
 
+using namespace dunedaq;
+using namespace dunedaq::oks;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 struct SortObjById {

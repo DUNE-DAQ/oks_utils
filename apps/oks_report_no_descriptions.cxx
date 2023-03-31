@@ -16,6 +16,8 @@
 #include "oks/file.hpp"
 #include "oks/exceptions.hpp"
 
+using namespace dunedaq;
+using namespace dunedaq::oks;
 
 static void
 printUsage(std::ostream& s)

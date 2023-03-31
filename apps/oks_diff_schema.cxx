@@ -34,6 +34,8 @@
 #include "oks/kernel.hpp"
 #include "oks/class.hpp"
 
+using namespace dunedaq;
+using namespace dunedaq::oks;
 
 int    localDiffsCount;
 int    classDiffsCount;
