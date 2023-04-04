@@ -28,6 +28,8 @@
 #include "oks/query.hpp"
 #include "oks/exceptions.hpp"
 
+using namespace dunedaq;
+using namespace dunedaq::oks;
 
   //
   // This function sets attribute values of class 'Person'

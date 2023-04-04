@@ -3,8 +3,8 @@
 
 #include "oks/kernel.hpp"
 
-namespace oks
-{
+namespace dunedaq {
+namespace oksutils {
   namespace access
   {
     /**
@@ -18,8 +18,10 @@ namespace oks
      */
 
     bool
-    is_writable(const OksFile& file, const std::string& user = OksKernel::get_user_name());
-  }
-}
+    is_writable(const oks::OksFile& file,
+                const std::string& user = oks::OksKernel::get_user_name());
+  } // namespace access
+} // namespace oksutils
+} // namespace dunedaq
 
 #endif

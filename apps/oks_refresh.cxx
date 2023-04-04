@@ -11,6 +11,9 @@
 
 #include "oks/kernel.hpp"
 
+using namespace dunedaq;
+using namespace dunedaq::oks;
+
 int
 main(int argc, char **argv)
 {
